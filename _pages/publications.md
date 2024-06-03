@@ -7,9 +7,4 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+Currently I'm working on one paper that will be subitted soon about automated leukemia diagnostic. 
