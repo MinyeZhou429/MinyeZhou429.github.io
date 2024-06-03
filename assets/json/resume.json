@@ -48,7 +48,7 @@
       "startDate": "2018-August",
       "endDate": "2022-June",
       "score": "3.925/4.0",
-      "courses": Computer science, Biology, Genetics, Bioinformatics, Statistics, Calculus
+      "courses": "Computer science, Biology, Genetics, Bioinformatics, Statistics, Calculus"
     },
     {
       "institution": "Harvard T.H. Chan School of Public Health",
@@ -58,7 +58,7 @@
       "startDate": "2022-August",
       "endDate": "2024-May",
       "score": "3.975/4.0",
-      "courses": Data science, Bioinformatics, Statistics, Machine learning
+      "courses": "Data science, Bioinformatics, Statistics, Machine learning"
     }
   ],
   "skills": [
