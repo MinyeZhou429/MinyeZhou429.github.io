@@ -69,11 +69,15 @@ We just showed that how the process can be done through visualization. However, 
 
 Then, we are also curious whether a simple k-means clustering on the original data space can be used to do diagnosis and tumor burden estimate without using UMAP or t-SNE Here, we perform clustering on both CLL and ALL samples. Specifically, we select several files from each leukemia type as the template and perform k-means to identify the cluster centroids. 2 different templates are built for ALL because of its high cancer cell heterogeneity. Because of the high run-time of k-means on such large dataset, we separated the template from training to identify cancer cluster. Here, we selected around 20 samples each for CLL and ALL to identify cancer clusters. We use Wilcoxon Rank Sum test to select clusters that are significantly amplified in cancer clusters and deprived in healthy samples. These would be our cancer clusters. Finally, to evaluate the cancer clusters we identified from k-means, we used around 100 samples for CLL and ALL to calculate the tumor burden. In this case, we will compare the tumor burden output from our pipeline to the doctor’s label and evaluate the pearson’s r correlation. 
 
-{% include figure.liquid path="assets/img/hdbscan.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/burden1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 Our initial tumor burden estimation reached a correlation of around 0.94. However, the false positive rates is high. We adjusted our p-values using the FDR correction and significantly reduced the false positive rates. 
 
+{% include figure.liquid path="assets/img/burden2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
 Overall ALL has higher heterogeneity of cancer so it is more challenging to estimate ALL tumor burden than in CLL Two templates of ALL similar correlation of around 0.85, which indicates that our pipeline has robust performance
+
+{% include figure.liquid path="assets/img/burden3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 We also took the output of our pipeline to train a Random Forest model. We used a training and testing ratio of 7:3 and all of the datasets have achieved very high accuracy and f1 scores.
 {% include figure.liquid path="assets/img/other_methods.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
