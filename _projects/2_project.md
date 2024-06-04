@@ -5,7 +5,7 @@ description: Undergraduate senior design project
 img: assets/img/leukemia.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 **Title**:
