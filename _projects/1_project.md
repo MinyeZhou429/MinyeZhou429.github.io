@@ -10,28 +10,39 @@ related_publications: false
 
 Title: Integrating RNA-Seq and ATAC-Seq Data to Infer Gene Regulatory Networks
 
-**Summary**: Using dual-pipeline approach to build gene regulatory network
+**Summary**: 
 
-**Data Type**: Bulk-RNA Transcriptomic data and ATAC-Seq data
+Using dual-pipeline approach to build gene regulatory network
 
-**Tools**: Scenic+ pipeline, HOMER, T-Gene
+**Data Type**: 
+
+Bulk-RNA Transcriptomic data and ATAC-Seq data
+
+**Tools**: 
+
+Scenic+ pipeline, HOMER, T-Gene
 
 **Introduction and rationale**:
+
 Gene regulation is a process controlling gene’s expression through many mechanisms. Gene regulation is important for proper cellular function, development, and adaption to different environments. Genes can be regulated at different stages. This project focuses on transcription factor gene regulatory events. How can genes be regulated through transcription factors? How can we use ATAC-Seq and RNA-seq data to infer gene regulatory network? 
 
-**State of art**:
+**State of Art**:
+
+
 Historically, if we want to build gene regulatory network, we can only rely on experimental data.  With the advancements in sequencing techniques and computational biology, we can obtain gene expression data. So we can build GRN based on co-expression relationships. Initially, the networks are undirected. Undirected networks can provide very limited information as we don’t know who regulates who. To improve this, techniques like GENIE3 and GRNBoost2 help by focusing on known transcription factors and their target genes. These algorithms make the relashionships directed. However, these methods still have their downsides. The main reason is that transcriptomics data do not directly capture many underlying regulatory mechanisms, such chromatin accesibility. Now we have chip-seq and atac-seq, so new methods got developed to incorporate new information. 
 
 **Method and pipeline**:
 {% include figure.liquid loading="eager" path="assets/img/scenicplus_pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 **Data descriptions**:
+
 Source: The Cancer Genome Atlas(TCGA)
 
 Cohort: Breast cancer cohort
 {% include figure.liquid loading="eager" path="assets/img/data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 **Results**:
+
 SCENIC+ builds a grn with 322 tfs. Each tf has around 30 target genes. I chose five well studies tfs in breast cancer and draw this subnetwork. Red indicates transcription factors, blue indicates target genes. In this network, we can see there are potential co-regulate events. For example, GATA3 and ESR1 both point to TBC1D9. GATA3 frameshift mutation promotes tumor growth in human luminal breast cancer cells. Mutation in ESR1 promotes ET-resistant and metastatic. The function of TBC1D9 in breast cancer is less characterized. Connecting the dots, we can hypothesize that TBC1D9 could potentially play a specific role in mediating responses that involve both the immune system's regulatory mechanisms and hormone-driven growth. 
 
 {% include figure.liquid loading="eager" path="assets/img/subnetwork.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
