@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gene regulatory network
-description: with background image
+description: Master Thesis project
 img: assets/img/subnetwork.jpg
 importance: 1
 category: work
