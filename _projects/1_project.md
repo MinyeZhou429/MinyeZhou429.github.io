@@ -2,7 +2,7 @@
 layout: page
 title: Gene regulatory network
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/subnetwork.jpg
 importance: 1
 category: work
 related_publications: false
@@ -21,4 +21,4 @@ Gene regulation is a process controlling gene’s expression through many mechan
 
 
 Method and pipeline:
-
+{% include figure.liquid loading="eager" path="assets/img/scenicplus_pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
