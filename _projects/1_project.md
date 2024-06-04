@@ -8,7 +8,9 @@ category: work
 related_publications: false
 ---
 
-Title: Integrating RNA-Seq and ATAC-Seq Data to Infer Gene Regulatory Networks
+**Title**: 
+
+Integrating RNA-Seq and ATAC-Seq Data to Infer Gene Regulatory Networks
 
 **Summary**: 
 
