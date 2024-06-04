@@ -34,14 +34,14 @@ Gene regulation is a process controlling gene’s expression through many mechan
 Historically, if we want to build gene regulatory network, we can only rely on experimental data.  With the advancements in sequencing techniques and computational biology, we can obtain gene expression data. So we can build GRN based on co-expression relationships. Initially, the networks are undirected. Undirected networks can provide very limited information as we don’t know who regulates who. To improve this, techniques like GENIE3 and GRNBoost2 help by focusing on known transcription factors and their target genes. These algorithms make the relashionships directed. However, these methods still have their downsides. The main reason is that transcriptomics data do not directly capture many underlying regulatory mechanisms, such chromatin accesibility. Now we have chip-seq and atac-seq, so new methods got developed to incorporate new information. 
 
 **Method and pipeline**:
-{% include figure.liquid loading="eager" path="assets/img/scenicplus_pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/scenic_pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 **Data descriptions**:
 
 Source: The Cancer Genome Atlas(TCGA)
 
 Cohort: Breast cancer cohort
-{% include figure.liquid loading="eager" path="assets/img/data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/scenic_data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 **Results**:
 
@@ -76,7 +76,7 @@ The main limitation is that bulk data cannot provide cell-level heterogeneity, w
 
 Future direction would be find consensus regulons and conduct mutation analysis to see whether there are non-coding mutations in TF binding sites.
 
-{% include figure.liquid loading="eager" path="assets/img/future_direction.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/scenic_future.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 
 
