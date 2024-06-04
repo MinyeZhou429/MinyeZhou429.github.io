@@ -4,8 +4,8 @@ title: Gene regulatory network
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category:work
-related_publications:false
+category: work
+related_publications: false
 ---
 
 Title: Integrating RNA-Seq and ATAC-Seq Data to Infer Gene Regulatory Networks
