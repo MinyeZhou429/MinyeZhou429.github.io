@@ -3,7 +3,7 @@ layout: page
 title: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
 description: BST281 group project
 img: 
-importance: 4
+importance: 5
 category: work
 ---
 
@@ -14,7 +14,6 @@ From Genes to Proteins-A Comprehensive RNA Sequencing Approach to Studying Alzhe
 **Members and Contributors**:
 
 Lucy Tian, Minye Zhou, Michelle Dai, Evelyn(Sizhu) Jiang, Yushan Xu
-
 
 **Data type**:
 
