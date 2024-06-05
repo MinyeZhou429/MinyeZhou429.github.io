@@ -4,7 +4,7 @@ title: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease P
 description: BST281 Group project
 img: assets/img/brain.jpg
 importance: 5
-category: work
+category: fun
 ---
 
 **Title**:
