@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: From Genes to Proteins: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
+description: BST281 Final group project
 img: assets/img/1.jpg
 importance: 3
 category: fun
