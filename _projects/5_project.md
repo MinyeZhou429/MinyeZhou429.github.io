@@ -1,6 +1,6 @@
 ---
 layout: page
-title: From Genes to Proteins-A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
+title: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
 description: BST281 Final group project
 img: assets/img/brain.jpg
 importance: 3
@@ -79,10 +79,9 @@ Clustering:
 
 Our clustering analysis using Hierarchical Clustering, K-Means, and Spectral Clustering assessed the quality of clusters of differentially expressed genes (DEGs) identified by DESeq2, with Hierarchical Clustering providing the best results based on silhouette scores. This measure evaluates the fit of each data point within its cluster relative to other clusters, where a higher score indicates better clustering. Hierarchical Clustering grouped DEGs into four distinct clusters, with the majority of up-regulated genes in the largest cluster. 
 
-
+{% include figure.liquid path="assets/img/az_clustering.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 PPI analysis:
-
 
 PPINs in our study demonstrated scale-free and "small-world" properties, typical of biological networks. Most nodes had few connections, while a few hub nodes were highly interconnected, influencing fundamental biological processes like synaptic activities and protein localization, particularly relevant to AD. We identified key hub genes such as TYROBP and CD163, which are crucial in AD pathogenesis, influencing microglial activity and inflammatory responses.
 
@@ -90,4 +89,9 @@ Our PPIN analysis revealed a community structure with each cluster associated wi
 
 Further, using the guilt-by-association principle, we predicted that certain genes involved in the cell cycle could be implicated in AD, highlighting the importance of further validation studies. This analysis underscores the potential of PPINs to identify diagnostic biomarkers and therapeutic targets for AD, as well as providing a deeper understanding of the disease's molecular basis.
 
-{% include figure.liquid path="assets/img/az_degs2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ppi1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ppi2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+Functional Analysis:
+
+
