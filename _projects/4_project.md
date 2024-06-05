@@ -19,7 +19,7 @@ Single cell sequencing transcriptomic data
 
 The dataset used in this project is Azizi2018_BreastCancer dataset. Using single-cell RNA sequencing, this study analyzed 45,000 immune cells from eight breast carcinomas as well as matched normal breast tissue, blood, and lymph nodes.
 
-**Method**:
+**Main**:
 
 Quality Check and Batch Effect Correction:
 
