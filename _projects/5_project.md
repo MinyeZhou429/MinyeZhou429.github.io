@@ -94,4 +94,21 @@ Further, using the guilt-by-association principle, we predicted that certain gen
 
 Functional Analysis:
 
+In our genomic association study detailed in figures below, we identified significant gene associations with Alzheimer's disease across different chromosomes, highlighted by two prominent peaks representing genes MS4A6A on chromosome 11 and APOE on chromosome 19. These findings corroborate previous research indicating MS4A6A's elevated transcripts in AD patients and the heightened AD risk associated with the APOE e4 isoform. The analysis supports MS4A6A as an AD susceptibility locus, with specific polymorphisms linked to brain atrophy in critical areas.
+
+Furthermore, pathway analysis using Pascal’s gene set database revealed the involvement of acetylcholine-related pathways, crucial in cholinergic neuron functions compromised in AD, and highlighted disruptions in protein synthesis processes in the brain's early AD stages. Additional analysis on differential gene expression (DEGs) and whole transcript data through DESeq2 emphasized the roles of neuroinflammation and immune responses in AD progression. This included pathways like NF-κB signaling, which mediates inflammatory responses and influences key AD proteins and processes. These integrated genomic and transcriptomic insights not only underscore the molecular complexity of AD but also pinpoint potential therapeutic targets centered around neuroinflammation and protein regulation pathways.
+
+{% include figure.liquid path="assets/img/az_func.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/az_fgsea.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/az_func2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/az_func3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+
+
+
+
+
+
+
+
 
