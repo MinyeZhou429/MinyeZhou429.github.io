@@ -1,10 +1,10 @@
 ---
 layout: page
-title: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
+title: project 6
 description: BST281 group project
 img: 
 importance: 4
-category: work
+category: fun
 ---
 
 **Title**:
