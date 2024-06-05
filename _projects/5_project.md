@@ -1,9 +1,10 @@
+
 ---
 layout: page
 title: A Comprehensive RNA Sequencing Approach to Studying Alzheimer's Disease Pathology
-description: BST281 Final group project
-img: assets/img/brain.jpg
-importance: 3
+description: MIT HST.953 Group project
+img: assets/img/mit_intro.jpg
+importance: 5
 category: work
 ---
 
