@@ -2,7 +2,7 @@
 layout: page
 title: Single Cell Analysis of Breast cancer cohort
 description: BMI710 Individual project
-img:/assets/img/12.jpg
+img: /assets/img/12.jpg
 importance: 3
 category: work
 ---
