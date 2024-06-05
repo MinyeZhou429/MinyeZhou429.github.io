@@ -2,8 +2,8 @@
 layout: page
 title: Single Cell Analysis of Breast cancer dataset
 description: BMI710 Individual project
-img: /assets/img/bc.jpg
-importance: 3
+img: assets/img/bc.jpg
+importance: 4
 category: work
 ---
 
