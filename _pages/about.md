@@ -20,11 +20,10 @@ social: false # includes social icons at the bottom of the page
 
 ## Welcome! 
 
-I'm Minye Zhou. I graduated from UCSD majored in Bioinformatics in 2022, then I pursued a master's degree in Computational Biology at Harvard T.H. Chan School of Public Health. I recently graduated and I'm actively looking for a research assistant position in Computational Biology field.
+My name is Minye Zhou. I graduated from UCSD with a major in Bioinformatics in 2022, then pursued a Master's degree in Computational Biology at Harvard T.H. Chan School of Public Health. Having recently graduated, I am actively seeking a research assistant position in the field of Computational Biology.
 
-My primary research interest is gaining more understanding in disease pathology and mechanisms. I love exloring and I'm open to any project. 
+My primary research interest is to gain a deeper understanding of disease pathology and mechanisms. I am enthusiastic about exploring new areas and am open to any project.
 
-I specialize in biological data analysis including Bulk-RNA sequencing, single cell sequencing, and flow cytometry data. My skill sets include Python, R, and JAVA. 
+I specialize in biological data analysis, including bulk RNA sequencing, single-cell sequencing, and flow cytometry data. My skill set includes Python, R, and Java.
 
-Explore my portofolio and connect with me here. I'm eager to share my passion and engage with you!
-
+Please explore my portfolio and connect with me here. I am eager to share my passion and engage with you!
