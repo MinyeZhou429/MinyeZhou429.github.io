@@ -66,4 +66,28 @@ AUC, Accuracy, F1 score, precision, and recall are used to evaluate the performa
 
 **Results**:
 
+Deep learning models:
 
+On the training set, the Base CNN has an accuracy of 0.6855 and a comparatively low loss of 1.2976. It achieved a high AUC of 0.9144. The precision and recall were closely matched at 0.6864 and 0.6786, respectively, leading to a balanced F1 score of 0.6825. VGG19 has a slightly lower accuracy of 0.6749 and a higher loss of 4.5783. Although its AUC dropped to 0.8546, it maintained a reasonable precision of 0.6845 and a recall of 0.6721, resulting in an F1 score of 0.6782. The Xception model, on the other hand, matched the Base CNN in accuracy at 0.6855 but suffered from a higher loss of 4.1506. Its AUC of 0.9013 was commendable, yet a notable disparity between a lower precision of 0.47 and a higher recall of 0.69 led to a reduced F1 score of 0.56, highlighting issues with generating too many false positives.
+
+On the testing set, the Base CNN maintained consistent performance with a slight decrease in accuracy to 0.6810, a loss of 1.3701, and an AUC similar to training at 0.9142. The precision and recall remained well-balanced at 0.6805 and 0.6757, respectively, with an F1 score of 0.6781, showing that the model performs similarly well under testing conditions. VGG19 also achieved an accuracy of 0.6810 but with a higher loss of 1.7703. Its AUC decreased to 0.8933, yet it managed to slightly improve both precision and recall to 0.6810, leading to a higher F1 score of 0.6809 compared to training, indicating slight enhancements or adaptability in test scenarios. Xception maintained an accuracy of 0.6810 but with an increased loss of 4.3375 and an AUC of 0.8850. The precision dropped further to 0.46 while recall was at 0.68, resulting in a lower F1 score of 0.55.
+
+
+{% include figure.liquid path="assets/img/cnn_deep.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/cnn_performance.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+Non-deep learning models:
+
+On the test set, the KMeans clustering approach has a low accuracy of 0.125, complemented by a precision of 0.57 and a recall of 0.12, resulting in an F1 score of 0.17. These metrics indicate that while KMeans was good at identifying specific classes when it predicted correctly, its overall ability to accurately label the dataset was significantly lacking, as evidenced by the low recall and, consequently, the poor F1 score. In contrast, the KNN (n=3) algorithm performed better, achieving an accuracy of 0.6445. Despite a lower precision of 0.49, the recall was considerably higher at 0.64, which led to a more balanced F1 score of 0.55. On the testing set, the performance trends observed were similar. KMeans clustering again showed limited effectiveness, with an accuracy of only 0.1047, precision at 0.54, and recall at 0.10, culminating in an F1 score of 0.14. On the other hand, KNN (n=3) has better performance in the training set, with an accuracy of 0.7144. It maintained a precision of 0.52 and an improved recall of 0.71, leading to a higher F1 score of 0.64. 
+
+{% include figure.liquid path="assets/img/cnn_nondeep.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+Limitations of the study:
+
+In this study, we have eliminated multi-labeled samples that could result in the loss of valuable information useful for more detailed classifications or for understanding the underlying complexities of the data. This could limit the depth of insights our model can provide.
+
+While the Base CNN shows promising results, the generalization capability of these pre-trained models to new, unseen data remains uncertain. The models' performance metrics are only as good as the data they are trained on, and if the training data lacks diversity or is not representative of the broader population, the model might not perform as well in real-world settings.
+
+Challenges:
+
+Even with strategies like stratified sampling and weight class, managing class imbalance can still pose significant challenges. While these methods help in creating a more balanced dataset for training models, they may only guarantee that the model will generalize well to real-world data, where the class distribution may still be highly skewed.
