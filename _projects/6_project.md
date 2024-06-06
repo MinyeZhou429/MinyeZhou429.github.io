@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
+title: RNA Sequencing analysis of Alzheimer's Disease
 description: BST281 group project
 img: 
 importance: 5
-category: 
+category: work
 ---
 
 **Title**:
