@@ -1,11 +1,13 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: grades
 nav: true
 nav_order: 5
-cv_pdf: Minye2024.pdf
+cv_pdf: [UCSD_Transcript.pdf,Harvard_Transcript.pdf]
 description:
 toc:
   sidebar: left
 ---
+
+Please check the pdf.
