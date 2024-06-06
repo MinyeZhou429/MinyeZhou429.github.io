@@ -52,7 +52,10 @@
       description:
         - Participation in developing and testing pipeline to de novo assemble the stLFR reads.
 
-
+- title: Awards
+  type: time_table
+  contents:
+    - title: Excellence Award in 2022 Southern California Flow Cytometry Association Summit
 
 - title: Academic Interests
   type: nested_list
