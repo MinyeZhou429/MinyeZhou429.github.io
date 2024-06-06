@@ -1,5 +1,15 @@
 ---
 layout: page
+title: Fluids Resuscitation of Patients with Congestive Heart Failure and/or End Stage Renal Disease
+description: MIT HST.953 Group project
+img: assets/img/mit_intro.jpg
+importance: 3
+category: work
+---
+
+
+---
+layout: page
 title: RNA Sequencing analysis of Alzheimer's Disease
 description: BST281 group project
 img: 
