@@ -2,20 +2,12 @@
 layout: page
 title: RNA sequencing analysis
 description: BST281 Group project
-img: assets/img/mit_intro.jpg
+img: assets/img/brain.jpg
 importance: 3
 category: work
 ---
 
 
----
-layout: page
-title: RNA Sequencing analysis of Alzheimer's Disease
-description: BST281 group project
-img: 
-importance: 5
-category: work
----
 
 **Title**:
 
