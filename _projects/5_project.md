@@ -58,7 +58,7 @@ After the VGG19 base, the model structure includes one flattened layer, a fully 
 In our second transfer learning model, we attempted a similar structure as above on a pre-trained Xception model on ImageNet. After the Xception base, the model structure includes one flattened layer, two fully connected layers with 512 units, and ReLU activation, a dropout layer with a rate of 0.5. In the first dense layer after the base, an elastic net kernel regularizer has been added to prevent further overfitting (l1 = 1e-4, l2 = 1e-4). The output layer, optimizer, loss function, and number of training epochs are the same as our first transfer learning model.
 
 
-{% include figure.liquid path="assets/img/cnn_model.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/cnn_models.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 The evaluation metrics of the deep learning models:
 
@@ -74,6 +74,7 @@ On the testing set, the Base CNN maintained consistent performance with a slight
 
 
 {% include figure.liquid path="assets/img/cnn_deep.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
 {% include figure.liquid path="assets/img/cnn_performance.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 Non-deep learning models:
