@@ -1,6 +1,5 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: grades
 nav: true
 nav_order: 5
